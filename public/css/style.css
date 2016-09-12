@@ -1,0 +1,44 @@
+/* 
+    Created on : Nov 9, 2015, 6:44:14 PM
+    Author     : Kanny
+*/
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'arial';
+    font-size: 10pt;
+}
+
+.container {
+    width: 900px;
+    margin: 50px auto;
+    border: 1px solid #CCC;
+    padding: 0;
+}
+
+.content {
+   padding: 10px 25px;
+}
+
+.title {
+    font-size: 96px;
+}
+
+nav {
+    background-color: #EEE;
+    padding: 5px;
+}
+nav > a { color: #269abc; text-decoration: none; padding: 0 10px; }
+nav > a:hover { color: red; text-decoration: underline; }
+span.align-right { float: right;}
+
+table { border-collapse: collapse; border: 1px solid #CCC; }
+td, th { border: 1px solid #CCC; padding: 5px;}
+th { background-color: #EEE;}
